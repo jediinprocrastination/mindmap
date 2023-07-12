@@ -1,3 +1,3 @@
 # Shared documents
 
-[[SafePmt library interfaces]]
+[[safe_pmt_library_interfaces]]
