@@ -1,3 +1,3 @@
 # Shared documents
 
-[a relative link](content/safe-pmt-library-interfaces.md)
+[SafePmt Public Interfaces](Content/safe-pmt-library-interfaces.md)
