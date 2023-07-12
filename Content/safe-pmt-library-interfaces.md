@@ -1,6 +1,6 @@
 PmtFile
 
-```C#
+```cs
 public class PmtFile
 {
 	private PmtFile()
