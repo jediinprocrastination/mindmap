@@ -1,3 +1,6 @@
+---
+publish: true
+---
 # Летний отдых 2024
 _01.08 - 10.08_
 ![[chigirinskoe-predmestse.jpg]]
