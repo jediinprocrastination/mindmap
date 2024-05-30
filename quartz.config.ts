@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "jediinprocrastination.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "!(Assets/Public)**/!(*.md)", "!(*.md)"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

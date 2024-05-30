@@ -9,3 +9,13 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+#content/Applied Systems/**
+#content/Assets/**
+#content/Cards/Contacts/**
+#content/Entities/**
+#content/Modifiers/**
+#content/Sandbox/**
+#content/Templates/**
+#content/Home.md
+#content/Links.md
+#content/_index.md
