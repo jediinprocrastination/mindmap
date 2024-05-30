@@ -1,9 +1,8 @@
 ---
 publish: true
 created: 2024-05-30 22:40:48
-type: template
-startDate: 2024-05-27T13:14:00
-endDate: 2024-05-27T13:15:00
+type: event
+date: 2024-08-01
 ---
 # Летний отдых 2024
 _01.08 - 10.08_
