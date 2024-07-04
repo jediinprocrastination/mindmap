@@ -30,3 +30,7 @@ date: 2024-07-05
 | **ИТОГО**       | 100                        | 300                        |
 <!-- TBLFM: @>$2=sum(@I..@-1) -->
 <!-- TBLFM: @>$3=sum(@I..@-1) -->
+
+## Схема проезда
+Маршрут в яндекс навигаторе:
+<div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.by/maps/?l=sat&ll=27.964894%2C53.973533&mode=routes&rtd=0&rtext=53.784938%2C27.638394~54.477007%2C27.115713&rtt=auto&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE3Njk2NRJ30JHQtdC70LDRgNGD0YHRjCwg0JzRltC90YHQutGWINGA0LDRkdC9LCDQndCw0LLQsNC00LLQvtGA0YHQutGWINGB0LXQu9GM0YHQsNCy0LXRgiwg0LDQs9GA0LDQs9Cw0YDQsNC00L7QuiDQk9Cw0YLQsNCy0LAiCg1vG91BFccjV0I%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D147092872540&utm_medium=mapframe&utm_source=maps&z=10" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/?l=sat&ll=27.964894%2C53.973533&mode=routes&rtd=0&rtext=53.784938%2C27.638394~54.477007%2C27.115713&rtt=auto&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE3Njk2NRJ30JHQtdC70LDRgNGD0YHRjCwg0JzRltC90YHQutGWINGA0LDRkdC9LCDQndCw0LLQsNC00LLQvtGA0YHQutGWINGB0LXQu9GM0YHQsNCy0LXRgiwg0LDQs9GA0LDQs9Cw0YDQsNC00L7QuiDQk9Cw0YLQsNCy0LAiCg1vG91BFccjV0I%2C~ymapsbm1%3A%2F%2Forg%3Foid%3D147092872540&z=10" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
