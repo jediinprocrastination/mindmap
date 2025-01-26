@@ -1,8 +1,10 @@
 ---
 publish: true
+aliases: 
 created: 2024-05-30 22:40:48
 type: event
 date: 2024-08-01
+icon: RiCalendarEventLine
 ---
 # Летний отдых 2024
 _01.08 - 10.08_
