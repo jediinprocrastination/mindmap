@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+publish: true
+title: "Index"
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+Welcome. Browse the published notes via the explorer on the left, or start with [Articles](/published/articles/).
