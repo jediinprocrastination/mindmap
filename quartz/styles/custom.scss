@@ -1,3 +1,89 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Visually flatten the "Published" wrapper folder in the explorer: hide its
+// label/toggle row and strip the indentation/border its children would get.
+.explorer .folder-container[data-folderpath="published/index"] {
+  display: none;
+
+  + .folder-outer {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+
+    > ul {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+    }
+  }
+}
+
+// With the title hidden, the whole-panel fold toggle is just a stray arrow;
+// remove it so the tree is always shown expanded.
+.explorer button.title-button.desktop-explorer {
+  display: none;
+}
+
+// Skip the "Published" crumb (always 2nd, right after "Home") to match the
+// flattened explorer tree above.
+.breadcrumb-container .breadcrumb-element:nth-child(2) {
+  display: none;
+}
+
+.breadcrumb-container {
+  margin-bottom: 3rem;
+}
+
+// The theme's right sidebar background differs from the center content on
+// wide screens; match it so the page reads as one continuous surface.
+.sidebar.right {
+  background-color: var(--light) !important;
+}
+
+// Since we're dark-mode only, tell the browser so it recolors its native
+// scrollbar track/thumb instead of showing the default light-gray one.
+html {
+  color-scheme: dark;
+}
+
+// The theme uses --lightgray as a "mat" color around the centered content on
+// ultra-wide screens; match it to --light for one continuous surface.
+.page {
+  background-color: var(--light) !important;
+}
+
+// Folder listing items: title on top, date below, both left-aligned,
+// instead of the default 3-column date/title/tags grid row.
+li.section-li > .section {
+  display: flex !important;
+  flex-direction: column;
+  gap: 0;
+
+  .desc {
+    order: 1;
+
+    h3 {
+      margin: 0;
+    }
+  }
+
+  .meta {
+    order: 2;
+    margin: 0;
+    margin-left: 2px;
+    font-size: 0.75em;
+  }
+
+  .tags {
+    order: 3;
+  }
+}
+
+// Cap note content to a comfortable reading width instead of stretching to
+// fill the whole center column, and center it within that column.
+.center article {
+  max-width: 735px;
+  margin-right: auto;
+}
